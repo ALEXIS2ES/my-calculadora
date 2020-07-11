@@ -17,7 +17,6 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/etInput"
             android:layout_width="match_parent"
             android:layout_height="@dimen/clc.input.heigth"
             android:hint="@string/calc.hint.input"
@@ -25,8 +24,8 @@
             android:inputType="none"
             android:textIsSelectable="true"
             android:maxLength="16"
-            android:drawableEnd="@drawable/ic_backspace_36"
             android:drawablePadding="16dp"
+            android:drawableEnd="@drawable/ic_backspace_36"
             tools:ignore="Autofill" />
 
     </com.google.android.material.textfield.TextInputLayout>
