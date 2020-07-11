@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Calculadora</string>
+    <string name="calc.hint.input">Introduce Tu Numero</string>
+</resources>
