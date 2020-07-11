@@ -5,6 +5,10 @@
     android:id="@+id/contenMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="@dimen/calc.horizontal.margin"
+    android:paddingRight="@dimen/calc.horizontal.margin"
+    android:paddingTop="@dimen/calc.vertical.margin"
+    android:paddingBottom="@dimen/calc.vertical.margin"
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -57,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/calc.btn.size"
             android:text="@string/calc.bnt.point"
-            android:theme="@style/ButtonMD"/>
+            android:theme="@style/ButtonMDDark"/>
 
     </LinearLayout>
 
@@ -117,7 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/calc.btn.size"
             android:text="@string/calc.bnt.clear"
-            android:theme="@style/ButtonMD"
+            android:theme="@style/ButtonMDDanger"
             android:layout_toEndOf="@+id/btnNine"/>
 
         <LinearLayout
@@ -139,14 +143,15 @@
                 android:layout_height="@dimen/calc.btn.size"
                 android:layout_weight="50"
                 android:text="@string/calc.bnt.betwen"
-                android:theme="@style/ButtonMD"/>
+                android:theme="@style/ButtonMDDark"/>
             <Button
                 android:id="@+id/btnMultiplication"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/calc.btn.size"
                 android:layout_weight="50"
                 android:text="@string/calc.bnt.multi"
-                android:theme="@style/ButtonMD"/>
+                android:theme="@style/ButtonMDDark"
+                android:textAllCaps="false"/>
 
         </LinearLayout>
         <LinearLayout
@@ -167,14 +172,14 @@
                 android:layout_height="@dimen/calc.btn.size"
                 android:layout_weight="50"
                 android:text="@string/calc.bnt.Sub"
-                android:theme="@style/ButtonMD"/>
+                android:theme="@style/ButtonMDDark"/>
             <Button
                 android:id="@+id/btnSum"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/calc.btn.size"
                 android:layout_weight="50"
                 android:text="@string/calc.bnt.sum"
-                android:theme="@style/ButtonMD"/>
+                android:theme="@style/ButtonMDDark"/>
 
         </LinearLayout>
 
@@ -185,7 +190,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/calc.btn.size"
         android:text="@string/calc.bnt.result"
-        android:theme="@style/ButtonMD"
+        android:theme="@style/ButtonMDDarker"
         android:layout_below="@+id/rlOperators"
         android:layout_toEndOf="@+id/llMainRigth"/>
 
