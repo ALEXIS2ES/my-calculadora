@@ -12,5 +12,11 @@
     <string name="calc.bnt.six">6</string>
     <string name="calc.bnt.three">3</string>
     <string name="calc.bnt.Zero">0</string>
+    <string name="calc.bnt.clear">C</string>
+    <string name="calc.bnt.betwen">÷</string>
+    <string name="calc.bnt.multi">x</string>
+    <string name="calc.bnt.Sub">-</string>
+    <string name="calc.bnt.sum">+</string>
+    <string name="calc.bnt.result">=</string>
 
 </resources>
