@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">My Calculadora</string>
     <string name="calc.hint.input">Introduce Tu Numero</string>
+    <string name="calc.bnt.seven">7</string>
+    <string name="calc.bnt.point">.</string>
+    <string name="calc.bnt.one">1</string>
+    <string name="calc.bnt.four">4</string>
+    <string name="calc.bnt.eight">8</string>
+    <string name="calc.bnt.five">5</string>
+    <string name="calc.bnt.two">2</string>
+    <string name="calc.bnt.nine">9</string>
+    <string name="calc.bnt.six">6</string>
+    <string name="calc.bnt.three">3</string>
+    <string name="calc.bnt.Zero">0</string>
+
 </resources>
