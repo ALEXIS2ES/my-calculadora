@@ -38,7 +38,7 @@
 
         <LinearLayout
             android:id="@+id/llMainLeft"
-            android:layout_width="@dimen/calc.btn.size"
+            android:layout_width="@dimen/calc.btn.width"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
@@ -65,7 +65,7 @@
 
         <LinearLayout
             android:id="@+id/llMainRigth"
-            android:layout_width="@dimen/calc.btn.size"
+            android:layout_width="@dimen/calc.btn.width"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
@@ -90,33 +90,33 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="@dimen/calc.btn.size"
+            android:layout_width="@dimen/calc.btn.width"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/btnNine"
-                android:layout_width="@dimen/calc.btn.size"
+                android:layout_width="match_parent"
                 android:layout_height="@dimen/calc.btn.size"
                 android:text="@string/calc.bnt.nine"
                 android:theme="@style/ButtonMD" />
 
             <Button
                 android:id="@+id/btnSix"
-                android:layout_width="@dimen/calc.btn.size"
+                android:layout_width="match_parent"
                 android:layout_height="@dimen/calc.btn.size"
                 android:text="@string/calc.bnt.six"
                 android:theme="@style/ButtonMD"/>
             <Button
                 android:id="@+id/btnThree"
-                android:layout_width="@dimen/calc.btn.size"
+                android:layout_width="match_parent"
                 android:layout_height="@dimen/calc.btn.size"
                 android:text="@string/calc.bnt.three"
                 android:theme="@style/ButtonMD"/>
 
         </LinearLayout>
         <LinearLayout
-            android:layout_width="@dimen/calc.btn.size"
+            android:layout_width="@dimen/calc.btn.width"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
