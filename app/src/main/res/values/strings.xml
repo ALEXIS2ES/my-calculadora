@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">My Calculadora</string>
-    <string name="calc.hint.input">Introduce Tu Numero</string>
+    <string name="calc.hint.input">Introduce el Numero</string>
     <string name="calc.bnt.seven">7</string>
     <string name="calc.bnt.point">.</string>
     <string name="calc.bnt.one">1</string>
@@ -18,6 +18,6 @@
     <string name="calc.bnt.Sub">-</string>
     <string name="calc.bnt.sum">+</string>
     <string name="calc.bnt.result">=</string>
-    <string name="message_exp_incorrect" />
+    <string name="message.exp.incorrect">La expresion es incorrecta.</string>
 
 </resources>
