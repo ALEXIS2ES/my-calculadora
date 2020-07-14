@@ -17,6 +17,7 @@
         android:layout_height="wrap_content">
 
         <EditText
+            android:id="@+id/etInput"
             android:layout_width="match_parent"
             android:layout_height="@dimen/clc.input.heigth"
             android:hint="@string/calc.hint.input"
