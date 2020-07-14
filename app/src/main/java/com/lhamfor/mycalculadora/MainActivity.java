@@ -45,6 +45,16 @@ public class MainActivity extends AppCompatActivity {
                 etInput.getText().append(valStr);
                 break;
             case R.id.btnPoint:
+                final  String operacion = etInput.getText().toString();
+
+                final  String operador = Metodos.getOperator(operacion);
+
+                final int count = operacion.length() -operacion.replace(".", "").length();
+
+                if (!operacion.contains(Constantes.POINT) ||
+                        (count < 2 && (!operador.equals(Constantes.OPERATOR_NULL)))){
+                    etInput.getText().append(valStr);
+            }
                 break;
         }
     }

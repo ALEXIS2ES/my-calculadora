@@ -1,9 +1,6 @@
 package com.lhamfor.mycalculadora;
 
-/**
- * Created by Alain Nicolás Tello on 19/06/2017.
- * Todos los derechos reservados.
- */
+
 
 public class Constantes {
 

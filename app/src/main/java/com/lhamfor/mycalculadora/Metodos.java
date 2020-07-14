@@ -4,10 +4,6 @@ import android.widget.EditText;
 
 import java.util.Locale;
 
-/**
- * Created by Alain Nicolás Tello on 20/06/2017.
- * Todos los derechos reservados.
- */
 
 public class Metodos {
     public static String getOperator(String operation) {
