@@ -10,6 +10,8 @@ import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.snackbar.Snackbar;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     EditText etInput;
     @BindView(R.id.contenMain)
     RelativeLayout contenMain;
+    private boolean onIsEditinProgress = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,6 +114,20 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     private  void resolve(boolean fromResult) {
+        Metodos.tryResolve(fromResult, etInput, new OnResolveCallback() {
+            @Override
+            public void onShowMessage(int errorRes) {
+                ShowMessage(errorRes);
+            }
 
+            @Override
+            public void onIsEditing() {
+                onIsEditinProgress = true;
+            }
+        });
+    }
+
+    private void ShowMessage(int errorRes) {
+        Snackbar.make(contenMain, errorRes, Snackbar.LENGTH_SHORT).show();
     }
 }
